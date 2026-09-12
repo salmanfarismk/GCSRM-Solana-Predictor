@@ -45,5 +45,5 @@ Interestingly the raw OHLCV model slightly outperformed the engineered feature m
 Past OHLCV data alone is insufficient to generate trading edge on a volatile crypto asset like Solana.
 
 ## Files
-- `notebook.ipynb` — full analysis
+- `solanafinal.ipynb` — full analysis
 - `README.md` — this file
