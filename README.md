@@ -26,16 +26,16 @@ Last 100 days used as test set. Scaler fit on training data only to prevent data
 
 | Model | Accuracy |
 |---|---|
-| Persistence Baseline | 0.52 |
-| Majority Class Baseline | 0.51 |
-| Raw Feature Model | 0.48 |
-| Engineered Feature Model | 0.44 |
+| Persistence Baseline | 0.5 |
+| Majority Class Baseline | 0.52 |
+| Raw Feature Model | 0.49 |
+| Engineered Feature Model | 0.45 |
 
 ## Class Balance
 | Class | Count | Proportion |
 |---|---|---|
 | Down (0) | 1183 | 50.4% |
-| Up (1) | 1162 | 49.6% |
+| Up (1) | 1162 | 49.5% |
 
 ## Honest Interpretation
 Both ML models failed to outperform naive baselines. This is consistent with the Efficient Market Hypothesis — in highly liquid crypto markets, historical price patterns are rapidly arbitraged away leaving little predictable signal. The near-perfect class balance confirms no dominant directional bias exists in Solana's price history.
